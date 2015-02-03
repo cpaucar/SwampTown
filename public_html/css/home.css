@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 4, 2015, 2:34:26 AM
+    Author     : Brian
+*/
+
+/*.left-carousel{
+   margin-left: -70px; 
+}
+
+.right-carousel{
+    margin-left: 300px;
+}*/
+
+.carouselImages {
+    margin: 0 auto;
+}
+
+.news {
+    background-color: #333333;
+}
+
+#newsCol1, #newsCol2 {
+    background-color: #333333;
+}
+
+#myCarousel {
+    height: 515px;
+}
+
+#carouselCaption {
+    margin-top: 8px;
+}
+
+p {
+    color: beige;
+}
+
+h2 {
+    color: beige;
+}
+
+/*
+.navbar-nav li a {
+    //background-color: red;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    //color: blue;
+    //background-color: orange;
+}
+*/
