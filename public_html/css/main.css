@@ -7,6 +7,18 @@ and open the template in the editor.
     Created on : Jan 4, 2015, 2:34:06 AM
     Author     : Brian
 */
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}   
 
 body {
     background-image: url("../images/bg.gif");
@@ -14,4 +26,18 @@ body {
 
 .container {
     background-color: black;
+}
+
+/* Centers Columns */
+.centered{
+    text-align:center;
+}
+
+.seperation-1{
+	height: 10px;
+}
+
+
+.info-panel {
+    padding-top: 10px;
 }
