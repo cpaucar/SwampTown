@@ -20,8 +20,9 @@ and open the template in the editor.
     margin: 0 auto;
 }
 
-.news {
-    background-color: #333333;
+#news {
+    background-color: #333333 !important;
+    margin-bottom:20px !important;
 }
 
 #myCarousel {
@@ -39,6 +40,48 @@ p {
 h2 {
     color: beige !important;
 }
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}
+
+
+h5{
+    font-size: 1.4em;
+}   
+
+body {
+    background-image: url("../images/bg.gif");
+}
+
+/*code from main.css*/
+
+.container {
+    background-color: black;
+}
+
+/* Centers Columns */
+.centered{
+    text-align:center;
+}
+
+.seperation-1{
+    height: 10px;
+}
+
+.seperation-2{
+    height: 50px;
+}
+
+
+.info-panel {
+    padding-top: 10px;
+}
+
 
 /*
 .navbar-nav li a {

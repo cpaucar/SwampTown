@@ -10,6 +10,12 @@
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap-social.css">
+                     <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/half-slider.css" rel="stylesheet">
+
     </head>
     <body>
         <script type="text/x-handlebars">
@@ -144,7 +150,140 @@
             <p>Charles, replace this with the html code for the contact page.</p>
         </script>
         <script type="text/x-handlebars" id="about">
-            <p>Charles, replace this with the html code for the contact page.</p>
+            <p>
+                  <!-- Carousel==================================================-->
+            <div class="row">
+                <div class="col-xs-12">
+                     <!-- Half Page Image Background Carousel Header -->
+                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+
+
+                        <!-- Wrapper for Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <!-- Set the first background image using inline CSS below. -->
+                                <div class="fill" style="background-image:url('images/system.jpg');"></div>
+                                <div class="carousel-caption">
+                                    <h2>System of a Down</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Set the second background image using inline CSS below. -->
+                                <div class="fill" style="background-image:url('images/norway.jpg');"></div>
+                                <div class="carousel-caption">
+                                    <h2>Caption 2</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill" style="background-image:url('images/yosemite.jpg');"></div>
+                                <div class="carousel-caption">
+                                    <h2>Caption 3</h2>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <div class="fill" style="background-image:url('images/greenery.jpg');"></div>
+                                <div class="carousel-caption">
+                                    <h2>Caption 4</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="seperation-1"></section>
+            <section class="seperation-1"></section>
+            <section class="seperation-1"></section>
+
+            <div id="inner-wrap">
+            <div class="container-fluid">                
+            <div class="row">  
+
+            <section class="seperation-1"></section>                            
+            <section class="seperation-1"></section>
+                         <div id="news" class=" col-xs-12 col-md-offset-1 col-md-7 centered info-panel">
+
+                                <h2>Swamp Jr. Gets Arrested</h2>
+                                <img src="images/10091.jpeg" class="img-responsive center-block" alt="FeverDownRiver">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div> <!--End 1st column-->
+    
+                        
+   
+                            <div class="col-xs-12 col-md-offset-1 col-md-3 centered">
+                                
+                                
+                                    <div class = "row">
+
+
+                                    <div id="news" class="col-xs-12">
+                                    <h2>Follow us</h2>    
+                                            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/SwamptownRecords">
+                                            <i class="fa fa-facebook"></i>
+                                            </a>
+                                        
+                                       
+                                            <a class="btn btn-social-icon btn-twitter">
+                                                <i class="fa fa-youtube youtube"></i>
+                                            </a>
+                                        
+                                        
+                                            <a class="btn btn-social-icon btn-instagram">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        
+                                        
+                                            <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/swamptownmusic">
+                                              <i class="fa fa-twitter"></i>
+                                             </a>
+                                             <section class="seperation-1"></section>
+                                            <section class="seperation-1"></section>
+                                    </div> <!-- End of Handles -->
+                                       </div> 
+
+                                    <div class = "row">
+                                        <div id="news" class="col-xs-12">
+                                        
+                                         <h2>Calendar</h2> 
+
+                                    </div> <!-- End of Handles -->
+                                    </div> 
+
+                                    <section class="seperation-2"></section>
+                            </div>
+                     </div>
+                 </div>
+            </div>
+
+
+            <section class="seperation-1"></section>
+            <section class="seperation-1"></section>
+            <section class="seperation-1"></section>
+
+ 
+
+
+
+
+            </p>
         </script>
                 
          <!-- Latest compiled and minified JavaScript-->
@@ -154,6 +293,18 @@
         <script src="js/libs/ember.min.js"></script>
         <script src="js/libs/ember-template-compiler-1.10.0.js"></script>
         <script src="js/app.js"></script>
+
+
+
+            <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Script to Activate the Carousel -->
+        <script src="js/about.js"></script>
+
 
 
 

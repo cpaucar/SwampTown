@@ -6,7 +6,7 @@ and open the template in the editor.
 /* 
     Created on : Jan 4, 2015, 2:34:06 AM
     Author     : Brian
-*/
+
 @media (max-width: @screen-xs) {
     body{font-size: 10px;}
 }
@@ -15,8 +15,8 @@ and open the template in the editor.
     body{font-size: 14px;}
 }
 
-
-h5{
+/* Code taken from main.css*/
+/*h5{
     font-size: 1.4em;
 }   
 
@@ -29,7 +29,7 @@ body {
 }
 
 /* Centers Columns */
-.centered{
+/*.centered{
     text-align:center;
 }
 
@@ -41,3 +41,4 @@ body {
 .info-panel {
     padding-top: 10px;
 }
+*/
